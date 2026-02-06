@@ -1,15 +1,14 @@
 <template>
-   <Hero/>
-   <!-- Our Story Section -->
+  <Hero />
+  <!-- Our Story Section -->
   <section class="bg-cyan-50 py-20">
     <div
       class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center"
     >
-
       <!-- LEFT IMAGE -->
       <div class="flex justify-center">
         <img
-          src="/public/story.jpg"
+          src="/story.jpg"
           alt="Our Story"
           class="rounded-xl shadow-lg w-full max-w-md"
         />
@@ -24,16 +23,16 @@
         <div class="w-20 h-1 bg-sky-600 mb-6"></div>
 
         <p class="text-cyan-900 leading-relaxed mb-4">
-          Aqualina was founded with one simple mission: to provide safe,
-          clean and refreshing drinking water to homes, offices and
-          businesses. From humble beginnings, we have grown into a trusted
-          water solutions provider committed to quality and reliability.
+          Aqualina was founded with one simple mission: to provide safe, clean
+          and refreshing drinking water to homes, offices and businesses. From
+          humble beginnings, we have grown into a trusted water solutions
+          provider committed to quality and reliability.
         </p>
 
         <p class="text-cyan-900 leading-relaxed mb-8">
-          Through modern purification processes and strict quality control,
-          we ensure that every bottle meets the highest standards of purity
-          and taste.
+          Through modern purification processes and strict quality control, we
+          ensure that every bottle meets the highest standards of purity and
+          taste.
         </p>
 
         <router-link
@@ -43,14 +42,12 @@
           Read More
         </router-link>
       </div>
-
     </div>
   </section>
 
   <!-- Why Choose Us -->
   <section class="bg-gray-50 py-20">
     <div class="max-w-6xl mx-auto px-6">
-
       <!-- SECTION HEADER -->
       <div class="text-center mb-14">
         <h2 class="text-3xl md:text-4xl font-bold text-cyan-900 mb-4">
@@ -64,10 +61,7 @@
       </div>
 
       <!-- FEATURES GRID -->
-      <div
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8"
-      >
-
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         <!-- CARD 1 -->
         <div
           class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-xl transition"
@@ -75,14 +69,14 @@
           <div
             class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-sky-100"
           >
-            <img src="/public/quality.svg" class="w-8" alt="Quality" />
+            <img src="/quality.svg" class="w-8" alt="Quality" />
           </div>
           <h3 class="font-semibold text-lg text-cyan-900 mb-2">
             Premium Quality
           </h3>
           <p class="text-cyan-900 text-sm">
-            Purified using modern filtration technology for superior taste
-            and safety.
+            Purified using modern filtration technology for superior taste and
+            safety.
           </p>
         </div>
 
@@ -93,7 +87,7 @@
           <div
             class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-sky-100"
           >
-            <img src="/public/delivery.svg" class="w-8" alt="Delivery" />
+            <img src="/delivery.svg" class="w-8" alt="Delivery" />
           </div>
           <h3 class="font-semibold text-lg mb-2 text-cyan-900">
             Fast Delivery
@@ -110,7 +104,7 @@
           <div
             class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-sky-100"
           >
-            <img src="/public/thumbsup.svg" class="w-8" alt="Support" />
+            <img src="/thumbsup.svg" class="w-8" alt="Support" />
           </div>
           <h3 class="font-semibold text-lg mb-2 text-cyan-900">
             Excellent Support
@@ -127,7 +121,7 @@
           <div
             class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-sky-100"
           >
-            <img src="/public/pricing.svg" class="w-8" alt="Affordable" />
+            <img src="/pricing.svg" class="w-8" alt="Affordable" />
           </div>
           <h3 class="font-semibold text-lg mb-2 text-cyan-900">
             Affordable Pricing
@@ -136,13 +130,79 @@
             High quality water at competitive and fair prices.
           </p>
         </div>
-
       </div>
+    </div>
+  </section>
 
+  <!--Our Products Section -->
+  <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <!-- Section Title -->
+      <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">
+        Our Products
+      </h2>
+
+      <!-- Products Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div
+          class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col"
+        >
+          <img src="/dispencer.png" alt="" />
+          <div class="p-6 flex flex-col flex-1">
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">
+              Water Dispencing
+            </h3>
+            <p class="text-gray-600 mb-4 flex-1">
+              High performance cooler suitable for any outdoor activity.
+            </p>
+            <button
+              class="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition mt-auto"
+            >
+              Order Now
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col"
+        >
+          <img src="/public/dispencer2.jpg" alt="" />
+          <div class="p-6 flex flex-col flex-1">
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">Servicing</h3>
+            <p class="text-gray-600 mb-4 flex-1">
+              High performance cooler suitable for any outdoor activity.
+            </p>
+            <button
+              class="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition mt-auto"
+            >
+              Order Now
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col"
+        >
+          <img src="/public/disposable.jpg" alt="" />
+          <div class="p-6 flex flex-col flex-1">
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">
+              Disposable Glasses
+            </h3>
+            <p class="text-gray-600 mb-4 flex-1">
+              High performance cooler suitable for any outdoor activity.
+            </p>
+            <button
+              class="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition mt-auto"
+            >
+              Order Now
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>
 
 <script setup>
-import Hero from '../Hero.vue';
+import Hero from "../Hero.vue";
 </script>
