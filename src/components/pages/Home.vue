@@ -1,0 +1,148 @@
+<template>
+   <Hero/>
+   <!-- Our Story Section -->
+  <section class="bg-cyan-50 py-20">
+    <div
+      class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center"
+    >
+
+      <!-- LEFT IMAGE -->
+      <div class="flex justify-center">
+        <img
+          src="/public/story.jpg"
+          alt="Our Story"
+          class="rounded-xl shadow-lg w-full max-w-md"
+        />
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div>
+        <h2 class="text-3xl md:text-4xl font-bold text-cyan-900 mb-4">
+          Our Story
+        </h2>
+
+        <div class="w-20 h-1 bg-sky-600 mb-6"></div>
+
+        <p class="text-cyan-900 leading-relaxed mb-4">
+          Aqualina was founded with one simple mission: to provide safe,
+          clean and refreshing drinking water to homes, offices and
+          businesses. From humble beginnings, we have grown into a trusted
+          water solutions provider committed to quality and reliability.
+        </p>
+
+        <p class="text-cyan-900 leading-relaxed mb-8">
+          Through modern purification processes and strict quality control,
+          we ensure that every bottle meets the highest standards of purity
+          and taste.
+        </p>
+
+        <router-link
+          to="/about"
+          class="inline-block bg-sky-600 hover:bg-sky-700 text-white px-8 py-3 rounded-full font-semibold transition"
+        >
+          Read More
+        </router-link>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="bg-gray-50 py-20">
+    <div class="max-w-6xl mx-auto px-6">
+
+      <!-- SECTION HEADER -->
+      <div class="text-center mb-14">
+        <h2 class="text-3xl md:text-4xl font-bold text-cyan-900 mb-4">
+          Why Choose Us?
+        </h2>
+        <div class="w-20 h-1 bg-sky-600 mx-auto mb-6"></div>
+        <p class="text-cyan-900 max-w-2xl mx-auto">
+          We go the extra mile to ensure you receive clean, safe and reliable
+          drinking water every time.
+        </p>
+      </div>
+
+      <!-- FEATURES GRID -->
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8"
+      >
+
+        <!-- CARD 1 -->
+        <div
+          class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-xl transition"
+        >
+          <div
+            class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-sky-100"
+          >
+            <img src="/public/quality.svg" class="w-8" alt="Quality" />
+          </div>
+          <h3 class="font-semibold text-lg text-cyan-900 mb-2">
+            Premium Quality
+          </h3>
+          <p class="text-cyan-900 text-sm">
+            Purified using modern filtration technology for superior taste
+            and safety.
+          </p>
+        </div>
+
+        <!-- CARD 2 -->
+        <div
+          class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-xl transition"
+        >
+          <div
+            class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-sky-100"
+          >
+            <img src="/public/delivery.svg" class="w-8" alt="Delivery" />
+          </div>
+          <h3 class="font-semibold text-lg mb-2 text-cyan-900">
+            Fast Delivery
+          </h3>
+          <p class="text-cyan-900 text-sm">
+            Reliable and timely deliveries to homes, offices and businesses.
+          </p>
+        </div>
+
+        <!-- CARD 3 -->
+        <div
+          class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-xl transition"
+        >
+          <div
+            class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-sky-100"
+          >
+            <img src="/public/thumbsup.svg" class="w-8" alt="Support" />
+          </div>
+          <h3 class="font-semibold text-lg mb-2 text-cyan-900">
+            Excellent Support
+          </h3>
+          <p class="text-cyan-900 text-sm">
+            Friendly customer service always ready to assist you.
+          </p>
+        </div>
+
+        <!-- CARD 4 -->
+        <div
+          class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-xl transition"
+        >
+          <div
+            class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-sky-100"
+          >
+            <img src="/public/pricing.svg" class="w-8" alt="Affordable" />
+          </div>
+          <h3 class="font-semibold text-lg mb-2 text-cyan-900">
+            Affordable Pricing
+          </h3>
+          <p class="text-cyan-900 text-sm">
+            High quality water at competitive and fair prices.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+</template>
+
+<script setup>
+import Hero from '../Hero.vue';
+</script>
