@@ -64,7 +64,7 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         <!-- CARD 1 -->
         <div
-          class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-xl transition"
+          class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-xl transition cursor-pointer"
         >
           <div
             class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-sky-100"
@@ -82,7 +82,7 @@
 
         <!-- CARD 2 -->
         <div
-          class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-xl transition"
+          class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-xl transition cursor-pointer"
         >
           <div
             class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-sky-100"
@@ -99,7 +99,7 @@
 
         <!-- CARD 3 -->
         <div
-          class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-xl transition"
+          class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-xl transition cursor-pointer"
         >
           <div
             class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-sky-100"
@@ -116,7 +116,7 @@
 
         <!-- CARD 4 -->
         <div
-          class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-xl transition"
+          class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-xl transition cursor-pointer" 
         >
           <div
             class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-sky-100"
@@ -138,7 +138,7 @@
   <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-6">
       <!-- Section Title -->
-      <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">
+      <h2 class="text-4xl font-bold text-center mb-12 text-cyan-900">
         Our Products
       </h2>
 
@@ -147,7 +147,7 @@
         <div
           class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col"
         >
-          <img src="/dispencer.png" alt="" />
+          <img src="../../assets/dispencer.png" alt="" />
           <div class="p-6 flex flex-col flex-1">
             <h3 class="text-xl font-semibold mb-2 text-gray-800">
               Water Dispencing
@@ -166,7 +166,7 @@
         <div
           class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col"
         >
-          <img src="/public/dispencer2.jpg" alt="" />
+          <img src="../../assets/dispencer2.jpg" alt="" />
           <div class="p-6 flex flex-col flex-1">
             <h3 class="text-xl font-semibold mb-2 text-gray-800">Servicing</h3>
             <p class="text-gray-600 mb-4 flex-1">
@@ -201,8 +201,10 @@
       </div>
     </div>
   </section>
+  <StatsSection />
 </template>
 
 <script setup>
 import Hero from "../Hero.vue";
+import StatsSection from "../StatsSection.vue";
 </script>
