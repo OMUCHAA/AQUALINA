@@ -38,17 +38,17 @@
             >CONTACT</router-link
           >
         </li>
-        <li>
+        <!-- <li>
           <router-link to="/order" class="hover:text-sky-600"
             >ORDER</router-link
           >
-        </li>
+        </li> -->
       </ul>
 
       <!-- CTA Button -->
       <router-link
         to="/contact"
-        class="hidden md:inline-block bg-cyan-900 text-white px-4 py-1 rounded-full hover:bg-cyan-700 transition -mb-8 md:px-1"
+        class="hidden md:inline-block bg-cyan-900 text-white px-4 py-1 rounded-full hover:bg-cyan-700 transition -mb-8 md:px-2"
       >
         Get Quote
       </router-link>
@@ -95,16 +95,16 @@
             BLOG
           </li>
         </router-link>
-        <router-link @click="closeMenu" to="/contacts">
+        <router-link @click="closeMenu" to="/contact">
           <li class="p-4 border-b text-cyan-200">
             CONTACTS
           </li>
         </router-link>
-        <router-link @click="closeMenu" to="/order">
+        <!-- <router-link @click="closeMenu" to="/order">
           <li class="p-4 border-b text-cyan-200">
             ORDER NOW
           </li>
-        </router-link>
+        </router-link> -->
           
         </ul>
       </div>

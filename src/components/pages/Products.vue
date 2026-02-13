@@ -173,17 +173,19 @@
     <!-- CTA -->
     <div class="bg-gray-100 py-16">
       <div class="container mx-auto px-6 text-center">
-        <h2 class="text-3xl font-bold text-gray-800 mb-4">
+        <h2 class="text-3xl font-bold text-cyan-900 mb-4">
           Need Help Choosing the Right Product?
         </h2>
-        <p class="text-gray-600 mb-6">
+        <p class="text-cyan-900 mb-6">
           Our team is ready to help you find the perfect water solution.
         </p>
-        <button
+        <router-link to="/contact">
+          <button
           class="bg-cyan-500 text-white px-6 py-3 rounded-lg hover:bg-cyan-600 transition"
         >
           Contact Us
         </button>
+        </router-link>
       </div>
     </div>
   </section>

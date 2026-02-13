@@ -8,18 +8,33 @@ import Order from "./components/pages/Order.vue";
 import Products from "./components/pages/Products.vue";
 
 const routes = [
-    {component: Home, name: 'Home', path: '/'},
-    {component: About, name: 'About', path: '/about'},
-    {component: Blog, name: 'Blog', path: '/blog'},
-    {component: Contact, name: 'Contact', path: '/contact'},
-    {component: Faqs, name: 'Faqs', path: '/faqs'},
-    {component: Order, name: 'Order', path: '/order'},
-    {component: Products, name: 'products', path: '/products'},
+  { component: Home, name: "Home", path: "/" },
+  { component: About, name: "About", path: "/about" },
+  { component: Blog, name: "Blog", path: "/blog" },
+  { component: Contact, name: "Contact", path: "/contact" },
+  { component: Faqs, name: "Faqs", path: "/faqs" },
+  { component: Order, name: "Order", path: "/order" },
+  { component: Products, name: "products", path: "/products" },
 ];
 
- const router = createRouter({
-    history: createWebHashHistory(),
-    routes
+const router = createRouter({
+  history: createWebHashHistory(),
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition;
+    } else if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: "smooth",
+      };
+    } else {
+      return {
+        top: 0,
+        behavior: "smooth",
+      };
+    }
+  },
 });
 
 export default router;

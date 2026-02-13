@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-cyan-950 text-gray-300">
+  <footer class="bg-cyan-950 text-cyan-300">
   <!-- Thids  -->
     <!-- Top Footer -->
     <div class="container mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-4 gap-10 justify-center text-center">
@@ -19,10 +19,10 @@
       <div>
         <h3 class="text-lg font-semibold text-white mb-4">Quick Links</h3>
         <ul class="space-y-2 text-sm">
-          <li><a href="#" class="hover:text-cyan-400">Home</a></li>
-          <li><a href="#" class="hover:text-cyan-400">Our Story</a></li>
-          <li><a href="#" class="hover:text-cyan-400">Products</a></li>
-          <li><a href="#" class="hover:text-cyan-400">Contact</a></li>
+          <li><router-link to="/" class="hover:text-cyan-400">Home</router-link></li>
+          <li><router-link to="/about" class="hover:text-cyan-400">Our Story</router-link></li>
+          <li><router-link to="/products" class="hover:text-cyan-400">Products</router-link></li>
+          <li><router-link to="/contact" class="hover:text-cyan-400">Contact</router-link></li>
         </ul>
       </div>
 
