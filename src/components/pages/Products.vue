@@ -26,7 +26,7 @@
           <img src="../../assets/dispencer.png" alt="" />
 
           <!-- Content -->
-          <div class="p-6 flex flex-col h-full">
+          <div class="p-6 flex flex-col">
             <h3 class="text-xl font-semibold text-gray-800 mb-3">
               Water Dispensers
             </h3>
@@ -35,11 +35,6 @@
               High-quality hot and cold water dispensers designed for homes,
               offices, and commercial use.
             </p>
-            <button
-              class="mt-auto bg-cyan-500 text-white py-2 px-5 rounded-lg hover:bg-cyan-600 transition"
-            >
-              Order Now
-            </button>
           </div>
         </div>
 
@@ -51,20 +46,15 @@
           <img src="../../assets/dispencer2.jpg" alt="" />
 
           <!-- Content -->
-          <div class="p-6 flex flex-col h-full">
+          <div class="p-6 flex flex-col">
             <h3 class="text-xl font-semibold text-gray-800 mb-3">
               Bulk Purified Water
             </h3>
 
             <p class="text-gray-600 mb-6 flex-1">
-              Premium purified drinking water supplied in 18.9-litre bottles for reliable daily use.
+              Premium purified drinking water supplied in 18.9-litre bottles for
+              reliable daily use.
             </p>
-
-            <button
-              class="mt-auto bg-cyan-500 text-white py-2 px-5 rounded-lg hover:bg-cyan-600 transition"
-            >
-              Order Now
-            </button>
           </div>
         </div>
 
@@ -76,20 +66,15 @@
           <img src="/servicing.png" alt="" />
 
           <!-- Content -->
-          <div class="p-6 flex flex-col h-full">
+          <div class="p-6 flex flex-col">
             <h3 class="text-xl font-semibold text-gray-800 mb-3">
               Cooler Servicing
             </h3>
 
             <p class="text-gray-600 mb-6 flex-1">
-              Professional servicing and maintenance to ensure your water dispensers remain hygienic and efficient.
+              Professional servicing and maintenance to ensure your water
+              dispensers remain hygienic and efficient.
             </p>
-
-            <button
-              class="mt-auto bg-cyan-500 text-white py-2 px-5 rounded-lg hover:bg-cyan-600 transition"
-            >
-              Order Now
-            </button>
           </div>
         </div>
 
@@ -101,20 +86,15 @@
           <img src="/public/disposable.jpg" alt="" />
 
           <!-- Content -->
-          <div class="p-6 flex flex-col h-full">
+          <div class="p-6 flex flex-col">
             <h3 class="text-xl font-semibold text-gray-800 mb-3">
               Disposable Cups
             </h3>
 
             <p class="text-gray-600 mb-6 flex-1">
-              Safe and hygienic disposable cups suitable for offices, events, and commercial environments.
+              Safe and hygienic disposable cups suitable for offices, events,
+              and commercial environments.
             </p>
-
-            <button
-              class="mt-auto bg-cyan-500 text-white py-2 px-5 rounded-lg hover:bg-cyan-600 transition"
-            >
-              Order Now
-            </button>
           </div>
         </div>
 
@@ -126,20 +106,15 @@
           <img src="../../assets/dispencer.png" alt="" />
 
           <!-- Content -->
-          <div class="p-6 flex flex-col h-full">
+          <div class="p-6 flex flex-col">
             <h3 class="text-xl font-semibold text-gray-800 mb-3">
               Office Water Solutions
             </h3>
 
             <p class="text-gray-600 mb-6 flex-1">
-             Tailored water supply solutions for corporate offices and institutions.
+              Tailored water supply solutions for corporate offices and
+              institutions.
             </p>
-
-            <button
-              class="mt-auto bg-cyan-500 text-white py-2 px-5 rounded-lg hover:bg-cyan-600 transition"
-            >
-              Order Now
-            </button>
           </div>
         </div>
 
@@ -151,23 +126,27 @@
           <img src="../../assets/dispencer.png" alt="" />
 
           <!-- Content -->
-          <div class="p-6 flex flex-col h-full">
+          <div class="p-6 flex flex-col">
             <h3 class="text-xl font-semibold text-gray-800 mb-3">
               Home Water Solutions
             </h3>
 
             <p class="text-gray-600 mb-6 flex-1">
-              Convenient and affordable water solutions designed for everyday household use.
+              Convenient and affordable water solutions designed for everyday
+              household use.
             </p>
-
-            <button
-              class="mt-auto bg-cyan-500 text-white py-2 px-5 rounded-lg hover:bg-cyan-600 transition"
-            >
-              Order Now
-            </button>
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="flex items-center justify-center mb-4">
+      <router-link
+        to="/contact"
+        class="mt-auto bg-cyan-500 text-white py-2 px-5 rounded-lg hover:bg-cyan-600 transition text-center"
+      >
+        <button>Order Now</button>
+      </router-link>
     </div>
 
     <!-- CTA -->
@@ -181,15 +160,14 @@
         </p>
         <router-link to="/contact">
           <button
-          class="bg-cyan-500 text-white px-6 py-3 rounded-lg hover:bg-cyan-600 transition"
-        >
-          Contact Us
-        </button>
+            class="bg-cyan-500 text-white px-6 py-3 rounded-lg hover:bg-cyan-600 transition"
+          >
+            Contact Us
+          </button>
         </router-link>
       </div>
     </div>
   </section>
 </template>
 
-<script setup>
-</script>
+<script setup></script>

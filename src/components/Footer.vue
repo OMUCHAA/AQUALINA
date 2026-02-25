@@ -20,9 +20,10 @@
         <h3 class="text-lg font-semibold text-white mb-4">Quick Links</h3>
         <ul class="space-y-2 text-sm">
           <li><router-link to="/" class="hover:text-cyan-400">Home</router-link></li>
-          <li><router-link to="/about" class="hover:text-cyan-400">Our Story</router-link></li>
-          <li><router-link to="/products" class="hover:text-cyan-400">Products</router-link></li>
+          <li><router-link to="/faqs" class="hover:text-cyan-400">Faqs</router-link></li>
           <li><router-link to="/contact" class="hover:text-cyan-400">Contact</router-link></li>
+          <li><router-link to="/products" class="hover:text-cyan-400">Products</router-link></li>
+          <li><router-link to="/about" class="hover:text-cyan-400">Our Story</router-link></li>
         </ul>
       </div>
 

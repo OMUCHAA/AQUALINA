@@ -70,7 +70,7 @@
   >
     <div class="container mx-auto px-6">
       <div class="grid text-center text-white">
-       <h1 class="text-6xl font-medium mb-5">Is your query not answered?</h1>
+       <h1 class="md:text-6xl text-4xl font-medium mb-5">Is your query not answered?</h1>
        <p class="text-2xl">Mail your question to support@aqualina.co.ke</p>
       </div>
     </div>

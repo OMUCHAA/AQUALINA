@@ -1,8 +1,10 @@
 <template>
-  <section class="relative min-h-[85vh] flex items-center">
+  <section
+    class="relative md:min-h-[85vh] flex items-center overflow-hidden py-8"
+  >
     <!-- Background Image -->
     <div
-      class="absolute inset-0 bg-cover bg-center"
+      class="absolute inset-0 bg-cover bg-center scale-110"
       :style="{ backgroundImage: `url(${bg})` }"
     ></div>
 
@@ -16,16 +18,22 @@
       <!-- LEFT: Text Content -->
       <div class="text-center md:text-left">
         <h1
-          class="text-6xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6"
+          class="text-6xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6 float"
         >
-          Pure, Safe <br><span class="text-5xl font-extrabold">AND</span><br> Refreshing Water
+          Pure, Safe <br />
+          <span class="text-5xl font-extrabold">AND</span><br />
+          Refreshing Water
         </h1>
 
-        <p class="text-2xl md:text-2xl text-gray-200 mb-8">
+        <p
+          class="text-2xl md:text-2xl text-gray-200 mb-8"
+        >
           Premium bottled drinking water for homes, offices and businesses.
         </p>
 
-        <div class="flex justify-center md:justify-start gap-4 flex-wrap">
+        <div
+          class="flex justify-center md:justify-start gap-4 flex-wrap"
+        >
           <router-link
             to="/products"
             class="bg-sky-600 hover:bg-sky-700 text-white px-8 py-4 rounded-full font-semibold transition"
@@ -43,7 +51,9 @@
       </div>
 
       <!-- RIGHT: Image -->
-      <div class="flex justify-center">
+      <div
+        class="md:flex justify-center hidden"
+      >
         <img
           :src="hero"
           alt="Water Bottle"
@@ -58,3 +68,35 @@
 import bg from "../assets/bg.jpg";
 import hero from "../assets/hero.png";
 </script>
+
+<style scoped>
+/* in style.css */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+}
+
+.float {
+  animation: float 16s ease-in-out infinite;
+}
+
+/* float X axis */
+@keyframes float-x {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-75px);
+  }
+}
+
+.float-x {
+  animation: float-x 4s ease-in-out infinite;
+}
+</style>

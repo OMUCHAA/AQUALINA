@@ -16,7 +16,7 @@
 
       <!-- RIGHT CONTENT -->
       <div>
-        <h2 class="text-3xl md:text-4xl font-bold text-cyan-900 mb-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-cyan-900 mb-4 float-y">
           Our Story
         </h2>
 
@@ -116,7 +116,7 @@
 
         <!-- CARD 4 -->
         <div
-          class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-xl transition cursor-pointer" 
+          class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-xl transition cursor-pointer"
         >
           <div
             class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-sky-100"
@@ -155,11 +155,12 @@
             <p class="text-gray-600 mb-4 flex-1">
               High performance cooler suitable for any outdoor activity.
             </p>
-            <button
-              class="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition mt-auto"
-            >
-              Order Now
-            </button>
+            <router-link to="/contact" class="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition mt-auto w-2/5 text-center">
+              <button
+              >
+                Order Now
+              </button>
+            </router-link>
           </div>
         </div>
 
@@ -172,11 +173,12 @@
             <p class="text-gray-600 mb-4 flex-1">
               High performance cooler suitable for any outdoor activity.
             </p>
-            <button
-              class="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition mt-auto"
-            >
-              Order Now
-            </button>
+            <router-link to="/contact"  class="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition mt-auto w-2/5 text-center">
+              <button
+              >
+                Order Now
+              </button>
+            </router-link>
           </div>
         </div>
 
@@ -191,11 +193,12 @@
             <p class="text-gray-600 mb-4 flex-1">
               High performance cooler suitable for any outdoor activity.
             </p>
-            <button
-              class="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition mt-auto"
-            >
-              Order Now
-            </button>
+            <router-link to="/contact" class="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition mt-auto w-2/5 text-center">
+              <button
+              >
+                Order Now
+              </button>
+            </router-link>
           </div>
         </div>
       </div>
@@ -208,3 +211,34 @@
 import Hero from "../Hero.vue";
 import StatsSection from "../StatsSection.vue";
 </script>
+
+<style scoped>
+/* float X axis */
+@keyframes float-x {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-75px);
+  }
+}
+
+.float-x {
+  animation: float-x 10s ease-in-out infinite;
+}
+/* float Y axis */
+@keyframes float-y {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.float-y {
+  animation: float-y 10s ease-in-out infinite;
+}
+</style>

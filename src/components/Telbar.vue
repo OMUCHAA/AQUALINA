@@ -1,6 +1,6 @@
 <template>
   <!-- Top Contact Bar -->
-  <div class="bg-gradient-to-r from-cyan-600 to-cyan-600 via-cyan-500 
+  <div class="bg-cyan-700 
  text-white text-sm">
     <div
       class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center px-4 py-6 gap-2"
@@ -35,7 +35,7 @@
 
       <!-- Right Side -->
       <div class="flex gap-4 items-center">
-        <a href="#" class="hover:text-cyan-300 transition"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" class="hover:text-cyan-300 transition"><i class="fa-brands fa-x-twitter"></i></a>
         <a href="#" class="hover:text-cyan-300 transition"><i class="fa-brands fa-tiktok"></i></a>
         <a href="#" class="hover:text-cyan-300 transition"><i class="fa-brands fa-instagram"></i></a>
       </div>
