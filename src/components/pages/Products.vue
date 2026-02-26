@@ -3,20 +3,20 @@
     <!-- HERO SECTION -->
     <div class="relative h-[45vh] md:h-[55vh]">
       <img
-        src="/productsHero.jpg"
+        src="/src/assets/bg.jpg"
         alt="Our Products"
         class="w-full h-full object-cover"
       />
       <div class="absolute inset-0 bg-black/40"></div>
       <div class="absolute inset-0 flex items-center justify-center">
-        <h1 class="text-cyan-100 text-5xl md:text-7xl font-bold">
+        <h1 class="text-cyan-100 text-5xl md:text-7xl font-bold font-heading">
           Our Products
         </h1>
       </div>
     </div>
 
     <!-- PRODUCTS GRID -->
-    <div class="container mx-auto px-6 py-20">
+    <div class="container mx-auto px-6 py-20 font-body">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         <!-- GRID 1 -->
         <div
@@ -143,7 +143,7 @@
     <div class="flex items-center justify-center mb-4">
       <router-link
         to="/contact"
-        class="mt-auto bg-cyan-500 text-white py-2 px-5 rounded-lg hover:bg-cyan-600 transition text-center"
+        class="mt-auto bg-cyan-500 text-white py-2 px-5 rounded-lg hover:bg-cyan-600 transition text-center font-body"
       >
         <button>Order Now</button>
       </router-link>
@@ -151,7 +151,7 @@
 
     <!-- CTA -->
     <div class="bg-gray-100 py-16">
-      <div class="container mx-auto px-6 text-center">
+      <div class="container mx-auto px-6 text-center font-body">
         <h2 class="text-3xl font-bold text-cyan-900 mb-4">
           Need Help Choosing the Right Product?
         </h2>

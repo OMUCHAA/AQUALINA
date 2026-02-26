@@ -16,20 +16,20 @@
 
       <!-- RIGHT CONTENT -->
       <div>
-        <h2 class="text-3xl md:text-4xl font-bold text-cyan-900 mb-4 float-y">
+        <h2 class="text-3xl md:text-4xl font-bold text-cyan-900 mb-4 float-y font-heading">
           Our Story
         </h2>
 
         <div class="w-20 h-1 bg-sky-600 mb-6"></div>
 
-        <p class="text-cyan-900 leading-relaxed mb-4">
+        <p class="text-cyan-900 leading-relaxed mb-4 font-body">
           Aqualina was founded with one simple mission: to provide safe, clean
           and refreshing drinking water to homes, offices and businesses. From
           humble beginnings, we have grown into a trusted water solutions
           provider committed to quality and reliability.
         </p>
 
-        <p class="text-cyan-900 leading-relaxed mb-8">
+        <p class="text-cyan-900 leading-relaxed mb-8 font-body">
           Through modern purification processes and strict quality control, we
           ensure that every bottle meets the highest standards of purity and
           taste.
@@ -37,7 +37,7 @@
 
         <router-link
           to="/about"
-          class="inline-block bg-sky-600 hover:bg-sky-700 text-white px-8 py-3 rounded-full font-semibold transition"
+          class="inline-block bg-sky-600 hover:bg-sky-700 text-white px-8 py-3 rounded-full font-semibold transition font-body"
         >
           Read More
         </router-link>
@@ -50,18 +50,18 @@
     <div class="max-w-6xl mx-auto px-6">
       <!-- SECTION HEADER -->
       <div class="text-center mb-14">
-        <h2 class="text-3xl md:text-4xl font-bold text-cyan-900 mb-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-cyan-900 mb-4 font-heading">
           Why Choose Us?
         </h2>
         <div class="w-20 h-1 bg-sky-600 mx-auto mb-6"></div>
-        <p class="text-cyan-900 max-w-2xl mx-auto">
+        <p class="text-cyan-900 max-w-2xl mx-auto font-body">
           We go the extra mile to ensure you receive clean, safe and reliable
           drinking water every time.
         </p>
       </div>
 
       <!-- FEATURES GRID -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 font-body">
         <!-- CARD 1 -->
         <div
           class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-xl transition cursor-pointer"
@@ -138,12 +138,12 @@
   <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-6">
       <!-- Section Title -->
-      <h2 class="text-4xl font-bold text-center mb-12 text-cyan-900">
+      <h2 class="text-4xl font-bold text-center mb-12 text-cyan-900 font-heading">
         Our Products
       </h2>
 
       <!-- Products Grid -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 font-body">
         <div
           class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col"
         >

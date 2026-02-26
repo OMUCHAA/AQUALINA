@@ -2,16 +2,16 @@
   <!-- HERO SECTION -->
   <div class="relative h-[45vh] md:h-[55vh]">
     <img
-      src="/productsHero.jpg"
+      src="/src/assets/productsHero.jpg"
       alt="Our Products"
       class="w-full h-full object-cover"
     />
     <div class="absolute inset-0 bg-black/40"></div>
     <div class="absolute inset-0 flex items-center justify-center">
-      <h1 class="text-cyan-100 text-5xl md:text-7xl font-bold">FAQs</h1>
+      <h1 class="text-cyan-100 text-5xl md:text-7xl font-bold font-heading">FAQs</h1>
     </div>
   </div>
-  <section class="bg-white py-20 px-6 md:px-16">
+  <section class="bg-white py-20 px-6 md:px-16 font-body">
     <div class="max-w-4xl mx-auto">
       <!-- Section Title -->
       <div class="text-center mb-14">
@@ -70,8 +70,8 @@
   >
     <div class="container mx-auto px-6">
       <div class="grid text-center text-white">
-       <h1 class="md:text-6xl text-4xl font-medium mb-5">Is your query not answered?</h1>
-       <p class="text-2xl">Mail your question to support@aqualina.co.ke</p>
+       <h1 class="md:text-6xl text-4xl font-medium mb-5 font-heading">Is your query not answered?</h1>
+       <p class="text-2xl font-body">Mail your question to support@aqualina.co.ke</p>
       </div>
     </div>
   </section>

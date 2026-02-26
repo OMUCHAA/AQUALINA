@@ -10,7 +10,7 @@
 
     <!-- Hero Content -->
     <div class="absolute inset-0 flex items-center justify-center">
-      <h1 class="text-cyan-100 text-5xl md:text-7xl font-bold tracking-wide">
+      <h1 class="text-cyan-100 text-5xl md:text-7xl font-bold tracking-wide font-body">
         Our Latest News
       </h1>
     </div>

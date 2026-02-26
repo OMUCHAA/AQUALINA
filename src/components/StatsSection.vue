@@ -1,7 +1,7 @@
 <template>
   <section
     ref="statsSection"
-    class="bg-cyan-600 py-20 overflow-hidden"
+    class="bg-cyan-600 py-20 overflow-hidden font-body"
   >
     <div class="container mx-auto px-6">
       <div class="grid grid-cols-2 md:grid-cols-4 gap-10 text-center text-white">

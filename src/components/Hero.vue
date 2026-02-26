@@ -18,7 +18,7 @@
       <!-- LEFT: Text Content -->
       <div class="text-center md:text-left">
         <h1
-          class="text-6xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6 float"
+          class="text-6xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-tight mb-6 float pt-7 font-heading"
         >
           Pure, Safe <br />
           <span class="text-5xl font-extrabold">AND</span><br />
@@ -26,7 +26,7 @@
         </h1>
 
         <p
-          class="text-2xl md:text-2xl text-gray-200 mb-8"
+          class="text-2xl md:text-2xl text-gray-200 mb-8 font-body"
         >
           Premium bottled drinking water for homes, offices and businesses.
         </p>
@@ -65,7 +65,7 @@
 </template>
 
 <script setup>
-import bg from "../assets/bg.jpg";
+import bg from "../assets/productsHero.jpg";
 import hero from "../assets/hero.png";
 </script>
 
@@ -98,5 +98,9 @@ import hero from "../assets/hero.png";
 
 .float-x {
   animation: float-x 4s ease-in-out infinite;
+}
+
+.hero-title {
+  font-family: 'Montserrat', sans-serif;
 }
 </style>

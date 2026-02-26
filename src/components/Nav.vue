@@ -6,10 +6,10 @@
       class="max-w-7xl mx-auto px-4 md:py-6 py-3 flex justify-between items-center relative"
     >
       <!-- Logo -->
-      <div class="flex items-center gap-2 ml-10 cursor-pointer">
+      <div class="flex items-center gap-2 ml-10 cursor-pointer font-heading">
         <a href="/"
           ><!-- <img src="/logo.png" alt="Logo" class="h-10 w-auto" /> -->
-          <span class="lg:text-4xl text-2xl font-bold text-cyan-700 logo">
+          <span class="lg:text-4xl text-2xl font-bold text-cyan-700 font-heading">
             AQUALINA
           </span></a
         >
@@ -17,7 +17,7 @@
 
       <!-- Desktop Menu -->
       <ul
-        class="hidden md:flex lg:gap-8 md:gap-4 text-cyan-900 font-medium -mb-8"
+        class="hidden md:flex lg:gap-8 md:gap-4 text-cyan-900 font-medium -mb-8 font-body"
       >
         <li>
           <router-link to="/" class="hover:text-sky-600">HOME</router-link>
@@ -53,7 +53,7 @@
       <!-- CTA Button -->
       <router-link
         to="/contact"
-        class="hidden md:inline-block bg-cyan-600/80 backdrop-blur-md text-white px-4 py-1 rounded-full hover:bg-cyan-500 transition border border-white/30 shadow-md -mb-7"
+        class="hidden font-body md:inline-block bg-cyan-600/80 backdrop-blur-md text-white px-4 py-1 rounded-full hover:bg-cyan-500 transition border border-white/30 shadow-md -mb-7"
       >
         Get Quote
       </router-link>
@@ -61,7 +61,7 @@
       <!-- Mobile Menu Button -->
       <button
         @click="isOpen = !isOpen"
-        class="md:hidden text-cyan-800 text-4xl mr-16"
+        class="md:hidden text-cyan-800 text-4xl mr-16 font-body"
       >
         <i v-if="!isOpen" class="fa-solid fa-bars"></i>
         <i v-if="isOpen" class="fa-solid fa-xmark text-cyan-800"></i>
@@ -74,7 +74,7 @@
         v-if="isOpen"
         class="md:hidden absolute top-full left-0 w-full bg-cyan-700 border-t shadow-lg"
       >
-        <ul class="flex flex-col text-cyan-900 font-medium">
+        <ul class="flex flex-col text-cyan-900 font-medium font-body">
           <router-link @click="closeMenu" to="/">
             <li class="p-4 border-b text-cyan-200">HOME</li>
           </router-link>
@@ -121,9 +121,6 @@ nav {
     rgba(255, 255, 255, 0.25),
     rgba(255, 255, 255, 0.05)
   );
-}
-.logo {
-  font-family: "Patrick Hand";
 }
 .dropdown-enter-active,
 .dropdown-leave-active {

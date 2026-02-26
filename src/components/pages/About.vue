@@ -14,7 +14,7 @@
       <!-- Hero Content -->
       <div class="absolute inset-0 flex items-center justify-center">
         <h1
-          class="text-cyan-100 text-5xl md:text-7xl font-bold tracking-wide"
+          class="text-cyan-100 text-5xl md:text-7xl font-bold tracking-wide font-heading"
         >
           About Us
         </h1>
@@ -28,11 +28,11 @@
       >
         <!-- Text -->
         <div>
-          <h2 class="text-3xl md:text-4xl font-bold text-cyan-900 mb-6">
+          <h2 class="text-3xl md:text-4xl font-bold text-cyan-900 mb-6 font-heading">
             Our Story
           </h2>
 
-          <p class="text-cyan-800 leading-relaxed mb-4">
+          <p class="text-cyan-800 leading-relaxed mb-4 font-body">
           Our journey began in 1992 when our founder returned to Kenya after completing further studies in the United States. During this time, he noticed a major gap in the local market: access to purified, safe, and portable drinking water was extremely limited. Clean bottled water was widely viewed as a luxury, accessible only to a few, while most households relied on traditional methods such as boiling to make water safe for consumption.
 
 Motivated by the need to change this reality, the idea was born to produce, package, distribute, and supply purified drinking water that could be trusted by everyone. The vision was simple yet powerful — to make clean, safe drinking water easily available to homes and businesses, at the press of a tap, whether hot or cold.

@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-cyan-950 text-cyan-300">
+  <footer class="bg-cyan-950 text-cyan-300 font-body">
   <!-- Thids  -->
     <!-- Top Footer -->
     <div class="container mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-4 gap-10 justify-center text-center">

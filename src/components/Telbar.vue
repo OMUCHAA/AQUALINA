@@ -1,7 +1,7 @@
 <template>
   <!-- Top Contact Bar -->
   <div class="bg-cyan-700 
- text-white text-sm">
+ text-white text-sm font-body">
     <div
       class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center px-4 py-6 gap-2"
     >
