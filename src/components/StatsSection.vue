@@ -12,7 +12,7 @@
           class="transition-all duration-700 ease-out"
           :class="{
             'opacity-100 translate-y-0': visible,
-            'opacity-0 translate-y-10': !visible
+            'opacity-0 translate-y-10': !visible,
           }"
         >
           <!-- ICON -->
@@ -26,7 +26,7 @@
           </h3>
 
           <!-- LABEL -->
-          <p class="mt-2 text-lg opacity-90">
+          <p class="mt-2 text-lg opacity-90 text-white">
             {{ stat.label }}
           </p>
         </div>

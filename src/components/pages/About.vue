@@ -4,7 +4,7 @@
     <!-- HERO SECTION -->
     <div class="relative w-full h-[50vh] md:h-[60vh]">
       <img
-        src="/AboutHero2.png"
+        src="/src/assets/AboutHero2.png"
         alt="About Aqualina"
         class="w-full h-full object-cover"
       />
@@ -50,7 +50,7 @@ Over the years, demand for our premium purified drinking water has grown consist
         <!-- Image -->
         <div class="flex justify-center">
           <img
-            src="/story.jpg"
+            src="/src/assets/story.jpg"
             alt="Our Story"
             class="rounded-2xl shadow-xl w-full max-w-md object-cover"
           />

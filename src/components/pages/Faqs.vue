@@ -69,9 +69,9 @@
     class="bg-cyan-600 py-20 overflow-hidden"
   >
     <div class="container mx-auto px-6">
-      <div class="grid text-center text-white">
-       <h1 class="md:text-6xl text-4xl font-medium mb-5 font-heading">Is your query not answered?</h1>
-       <p class="text-2xl font-body">Mail your question to support@aqualina.co.ke</p>
+      <div class="grid text-center text-cyan-100">
+       <h1 class="md:text-6xl text-3xl font-medium mb-5 font-heading">Is your query not answered?</h1>
+       <p class="text-2xl font-body text-cyan-50">Mail your question to support@aqualina.co.ke</p>
       </div>
     </div>
   </section>

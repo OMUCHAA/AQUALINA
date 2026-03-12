@@ -8,7 +8,7 @@
       <!-- LEFT IMAGE -->
       <div class="flex justify-center">
         <img
-          src="/story.jpg"
+          src="/src/assets/story.jpg"
           alt="Our Story"
           class="rounded-xl shadow-lg w-full max-w-md"
         />
@@ -69,7 +69,7 @@
           <div
             class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-sky-100"
           >
-            <img src="/quality.svg" class="w-8" alt="Quality" />
+            <img src="/src/assets/quality.svg" class="w-8" alt="Quality" />
           </div>
           <h3 class="font-semibold text-lg text-cyan-900 mb-2">
             Premium Quality
@@ -87,7 +87,7 @@
           <div
             class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-sky-100"
           >
-            <img src="/delivery.svg" class="w-8" alt="Delivery" />
+            <img src="/src/assets/delivery.svg" class="w-8" alt="Delivery" />
           </div>
           <h3 class="font-semibold text-lg mb-2 text-cyan-900">
             Fast Delivery
@@ -104,7 +104,7 @@
           <div
             class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-sky-100"
           >
-            <img src="/thumbsup.svg" class="w-8" alt="Support" />
+            <img src="/src/assets/thumbsup.svg" class="w-8" alt="Support" />
           </div>
           <h3 class="font-semibold text-lg mb-2 text-cyan-900">
             Excellent Support
@@ -121,7 +121,7 @@
           <div
             class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-sky-100"
           >
-            <img src="/pricing.svg" class="w-8" alt="Affordable" />
+            <img src="/src/assets/pricing.svg" class="w-8" alt="Affordable" />
           </div>
           <h3 class="font-semibold text-lg mb-2 text-cyan-900">
             Affordable Pricing
@@ -155,7 +155,8 @@
             <p class="text-gray-600 mb-4 flex-1">
               High performance cooler suitable for any outdoor activity.
             </p>
-            <router-link to="/contact" class="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition mt-auto w-2/5 text-center">
+            <router-link to="/contact" class="bg-cyan-500 text-white px-4
+             py-2 rounded hover:bg-cyan-600 transition mt-auto w-2/5 text-center">
               <button
               >
                 Order Now
@@ -185,7 +186,7 @@
         <div
           class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col"
         >
-          <img src="/public/disposable.jpg" alt="" />
+          <img src="/src/assets/disposable.jpg" alt="" />
           <div class="p-6 flex flex-col flex-1">
             <h3 class="text-xl font-semibold mb-2 text-gray-800">
               Disposable Glasses
@@ -240,5 +241,11 @@ import StatsSection from "../StatsSection.vue";
 
 .float-y {
   animation: float-y 10s ease-in-out infinite;
+}
+</style>
+// so it means someone can actually place more that one style tags as you have said
+<style>
+p {
+  color: blue;
 }
 </style>

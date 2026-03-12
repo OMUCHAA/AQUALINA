@@ -63,7 +63,7 @@
           class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition"
         >
           <!-- Image -->
-          <img src="/servicing.png" alt="" />
+          <img src="/src/assets/servicing.png" alt="" />
 
           <!-- Content -->
           <div class="p-6 flex flex-col">
@@ -83,7 +83,7 @@
           class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition"
         >
           <!-- Image -->
-          <img src="/public/disposable.jpg" alt="" />
+          <img src="/src/assets/disposable.jpg" alt="" />
 
           <!-- Content -->
           <div class="p-6 flex flex-col">

@@ -9,7 +9,7 @@
         <h2 class="text-2xl font-bold text-white mb-4">
           AQUALINA
         </h2>
-        <p class="text-sm leading-relaxed">
+        <p class="text-sm leading-relaxed text-cyan-400">
           Delivering clean, safe, and reliable water solutions for homes,
           offices, and businesses.
         </p>
