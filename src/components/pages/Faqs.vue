@@ -91,7 +91,7 @@ const faqs = ref([
   {
     question: "How often should dispensers be serviced?",
     answer:
-      "We recommend servicing your dispenser every 3–6 months to maintain hygiene and optimal performance.",
+      "We recommend servicing your dispenser every 3-6 months to maintain hygiene and optimal performance.",
   },
   {
     question: "Do you offer bulk water supply for offices?",

@@ -1,14 +1,13 @@
 <template>
   <footer class="bg-cyan-950 text-cyan-300 font-body">
-  <!-- Thids  -->
+    <!-- Thids  -->
     <!-- Top Footer -->
-    <div class="container mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-4 gap-10 justify-center text-center">
-      
+    <div
+      class="container mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-4 gap-10 justify-center text-center"
+    >
       <!-- Brand -->
       <div>
-        <h2 class="text-2xl font-bold text-white mb-4">
-          AQUALINA
-        </h2>
+        <h2 class="text-2xl font-bold text-white mb-4">AQUALINA</h2>
         <p class="text-sm leading-relaxed text-cyan-400">
           Delivering clean, safe, and reliable water solutions for homes,
           offices, and businesses.
@@ -19,11 +18,29 @@
       <div>
         <h3 class="text-lg font-semibold text-white mb-4">Quick Links</h3>
         <ul class="space-y-2 text-sm">
-          <li><router-link to="/" class="hover:text-cyan-400">Home</router-link></li>
-          <li><router-link to="/faqs" class="hover:text-cyan-400">Faqs</router-link></li>
-          <li><router-link to="/contact" class="hover:text-cyan-400">Contact</router-link></li>
-          <li><router-link to="/products" class="hover:text-cyan-400">Products</router-link></li>
-          <li><router-link to="/about" class="hover:text-cyan-400">Our Story</router-link></li>
+          <li>
+            <router-link to="/" class="hover:text-cyan-400">Home</router-link>
+          </li>
+          <li>
+            <router-link to="/faqs" class="hover:text-cyan-400"
+              >Faqs</router-link
+            >
+          </li>
+          <li>
+            <router-link to="/contact" class="hover:text-cyan-400"
+              >Contact</router-link
+            >
+          </li>
+          <li>
+            <router-link to="/products" class="hover:text-cyan-400"
+              >Products</router-link
+            >
+          </li>
+          <li>
+            <router-link to="/about" class="hover:text-cyan-400"
+              >Our Story</router-link
+            >
+          </li>
         </ul>
       </div>
 
@@ -43,15 +60,20 @@
         <h3 class="text-lg font-semibold text-white mb-4">Contact Us</h3>
         <ul class="space-y-3 text-sm">
           <li>
-            <i class="fa-solid fa-phone mr-2 text-cyan-400"></i>
-            +254 780 818238
+            <a href="tel:+254780818238" class="mr-4">
+              <i class="fa-solid fa-phone-flip"></i> +254 780818238
+            </a>
           </li>
           <li>
-            <i class="fa-solid fa-envelope mr-2 text-cyan-400 ml-4"></i>
-            info@aqualina.co.ke
+            <a
+              href="mailto:info@aqualina.co.ke"
+              class="-mr-4"
+            >
+              <i class="fa-solid fa-envelope"></i> info@aqualina.co.ke
+            </a>
           </li>
-          <li>
-            <i class="fa-solid fa-location-dot mr-2 text-cyan-400 -ml-4"></i>
+          <li class="mr-6">
+            <i class="fa-solid fa-location-dot text-cyan-400"></i>
             Nairobi, Kenya
           </li>
         </ul>

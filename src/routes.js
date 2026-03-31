@@ -14,13 +14,13 @@ const routes = [
   { component: Contact, name: "Contact", path: "/contact" },
   { component: Faqs, name: "Faqs", path: "/faqs" },
   { component: Order, name: "Order", path: "/order" },
-  { component: Products, name: "products", path: "/products" },
+  { component: Products, name: "Products", path: "/products" },
 ];
 
 const router = createRouter({
   history: createWebHashHistory(),
   routes,
-  scrollBehavior(to, from, savedPosition) {
+  scrollBehavior(to, savedPosition) {
     if (savedPosition) {
       return savedPosition;
     } else if (to.hash) {

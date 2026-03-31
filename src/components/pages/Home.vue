@@ -8,7 +8,7 @@
       <!-- LEFT IMAGE -->
       <div class="flex justify-center">
         <img
-          src="/src/assets/story.jpg"
+          src="/src/assets/image.png"
           alt="Our Story"
           class="rounded-xl shadow-lg w-full max-w-md"
         />

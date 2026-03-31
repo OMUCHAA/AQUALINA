@@ -52,12 +52,12 @@
 
       <!-- RIGHT: Image -->
       <div
-        class="md:flex justify-center hidden"
+        class="flex justify-center items-center"
       >
         <img
-          :src="hero"
+          :src="aqualina"
           alt="Water Bottle"
-          class="w-[280px] sm:w-[350px] md:w-[420px] drop-shadow-2xl"
+          class="w-[380px] sm:w-[450px] md:w-[590px] drop-shadow-2xl"
         />
       </div>
     </div>
@@ -66,7 +66,7 @@
 
 <script setup>
 import bg from "../assets/productsHero.jpg";
-import hero from "../assets/hero.png";
+import aqualina from "../assets/aqualina-bottle1.png";
 </script>
 
 <style scoped>

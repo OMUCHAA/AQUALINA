@@ -23,17 +23,17 @@
           class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition"
         >
           <!-- Image -->
-          <img src="../../assets/dispencer.png" alt="" />
+          <img src="/src/assets/image.png" alt="" />
 
           <!-- Content -->
           <div class="p-6 flex flex-col">
             <h3 class="text-xl font-semibold text-gray-800 mb-3">
-              Water Dispensers
+              Bulk Purified Water
             </h3>
 
             <p class="text-gray-600 mb-6 flex-1">
-              High-quality hot and cold water dispensers designed for homes,
-              offices, and commercial use.
+              Premium purified drinking water supplied in 18.9-litre bottles for
+              reliable daily use.
             </p>
           </div>
         </div>

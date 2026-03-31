@@ -69,10 +69,17 @@
         >
           <i class="fa-solid fa-phone text-4xl text-cyan-500 mb-4"></i>
           <h3 class="font-semibold text-xl mb-2 text-cyan-900">Call Us</h3>
-          <p class="text-cyan-900">
-            +254 780 818 238<br />
-            +254 780 818 238
-          </p>
+          <a
+            href="tel:+254780818238" class="text-cyan-900"
+          >
+            <i class="fa-solid fa-phone-flip"></i> +254 780818238
+          </a>
+          <br>
+          <a
+            href="tel:+254780818238" class="text-cyan-900"
+          >
+            <i class="fa-solid fa-phone-flip"></i> +254 780818238
+          </a>
         </div>
 
         <!-- Email -->
@@ -87,8 +94,14 @@
           <i class="fa-solid fa-envelope text-4xl text-cyan-500 mb-4"></i>
           <h3 class="font-semibold text-xl mb-2 text-cyan-900">Email</h3>
           <p class="text-cyan-900">
-            info@aqualina.co.ke<br />
-            sales@aqualina.co.ke
+            <a href="mailto:info@aqualina.co.ke">
+              <i class="fa-solid fa-envelope"></i> info@aqualina.co.ke </a
+            ><br />
+          </p>
+          <p class="text-cyan-900">
+            <a href="mailto:info@aqualina.co.ke" class="flex items-center">
+              <i class="fa-solid fa-envelope mr-2"></i> support@aqualina.co.ke
+            </a>
           </p>
         </div>
 

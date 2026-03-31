@@ -50,7 +50,7 @@ Over the years, demand for our premium purified drinking water has grown consist
         <!-- Image -->
         <div class="flex justify-center">
           <img
-            src="/src/assets/story.jpg"
+            src="/src/assets/aqualina-product.jpeg"
             alt="Our Story"
             class="rounded-2xl shadow-xl w-full max-w-md object-cover"
           />
