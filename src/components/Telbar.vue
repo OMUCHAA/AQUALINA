@@ -7,7 +7,7 @@
     >
      <div class="flex flex-wrap items-center justify-center gap-1"> 
          <!-- Left Side -->
-      <div class="flex flex-wrap gap-4 items-center">
+      <div class="sm:flex flex-wrap gap-4 items-center hidden">
         <a
           href="tel:+254780818238"
           class="flex items-center gap-1 hover:text-cyan-300 transition font-bold"

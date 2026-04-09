@@ -1,7 +1,7 @@
 <template>
   <div class="relative w-full h-[50vh] md:h-[60vh]">
     <img
-      src="/src/assets/AboutHero2.png"
+      src="/src/assets/AboutHero2.webp"
       alt="About Aqualina"
       class="w-full h-full object-cover"
     />

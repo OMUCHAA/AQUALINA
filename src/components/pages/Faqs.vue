@@ -2,7 +2,7 @@
   <!-- HERO SECTION -->
   <div class="relative h-[45vh] md:h-[55vh]">
     <img
-      src="/src/assets/productsHero.jpg"
+      src="/src/assets/productsHero.webp"
       alt="Our Products"
       class="w-full h-full object-cover"
     />

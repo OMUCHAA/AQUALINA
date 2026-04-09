@@ -14,7 +14,6 @@
         </h1>
       </div>
     </div>
-
     <!-- PRODUCTS GRID -->
     <div class="container mx-auto px-6 py-20 font-body">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -23,123 +22,94 @@
           class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition"
         >
           <!-- Image -->
-          <img src="/src/assets/image.png" alt="" />
-
+          <img src="../../assets/aqualina-bottle1.png" alt="" />
           <!-- Content -->
           <div class="p-6 flex flex-col">
-            <h3 class="text-xl font-semibold text-gray-800 mb-3">
-              Bulk Purified Water
-            </h3>
-
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">Home Water Solutions</h3>
             <p class="text-gray-600 mb-6 flex-1">
-              Premium purified drinking water supplied in 18.9-litre bottles for
-              reliable daily use.
+              Convenient and affordable water solutions designed for everyday household
+              use.
             </p>
           </div>
         </div>
-
         <!-- GRID 2 -->
         <div
           class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition"
         >
           <!-- Image -->
-          <img src="../../assets/dispencer2.jpg" alt="" />
-
+          <img src="/src/assets/image.png" alt="" />
           <!-- Content -->
           <div class="p-6 flex flex-col">
-            <h3 class="text-xl font-semibold text-gray-800 mb-3">
-              Bulk Purified Water
-            </h3>
-
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">Bulk Purified Water</h3>
             <p class="text-gray-600 mb-6 flex-1">
-              Premium purified drinking water supplied in 18.9-litre bottles for
-              reliable daily use.
+              Premium purified drinking water supplied in 18.9-litre bottles for reliable
+              daily use.
             </p>
           </div>
         </div>
-
         <!-- GRID 3 -->
         <div
           class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition"
         >
           <!-- Image -->
-          <img src="/src/assets/servicing.png" alt="" />
-
+          <img src="/src/assets/disposable.jpg" alt="" />
           <!-- Content -->
           <div class="p-6 flex flex-col">
-            <h3 class="text-xl font-semibold text-gray-800 mb-3">
-              Cooler Servicing
-            </h3>
-
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">Disposable Cups</h3>
             <p class="text-gray-600 mb-6 flex-1">
-              Professional servicing and maintenance to ensure your water
-              dispensers remain hygienic and efficient.
+              Safe and hygienic disposable cups suitable for offices, events, and
+              commercial environments.
             </p>
           </div>
         </div>
-
         <!-- GRID 4 -->
         <div
           class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition"
         >
           <!-- Image -->
-          <img src="/src/assets/disposable.jpg" alt="" />
-
+          <img src="../../assets/dispencer2.jpg" alt="" />
           <!-- Content -->
           <div class="p-6 flex flex-col">
-            <h3 class="text-xl font-semibold text-gray-800 mb-3">
-              Disposable Cups
-            </h3>
-
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">Bulk Purified Water</h3>
             <p class="text-gray-600 mb-6 flex-1">
-              Safe and hygienic disposable cups suitable for offices, events,
-              and commercial environments.
+              Premium purified drinking water supplied in 18.9-litre bottles for reliable
+              daily use.
             </p>
           </div>
         </div>
-
         <!-- GRID 5 -->
         <div
           class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition"
         >
           <!-- Image -->
-          <img src="../../assets/dispencer.png" alt="" />
-
+          <img src="/src/assets/servicing.png" alt="" />
           <!-- Content -->
           <div class="p-6 flex flex-col">
-            <h3 class="text-xl font-semibold text-gray-800 mb-3">
-              Office Water Solutions
-            </h3>
-
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">Cooler Servicing</h3>
             <p class="text-gray-600 mb-6 flex-1">
-              Tailored water supply solutions for corporate offices and
-              institutions.
+              Professional servicing and maintenance to ensure your water dispensers
+              remain hygienic and efficient.
             </p>
           </div>
         </div>
-
         <!-- GRID 6 -->
         <div
           class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition"
         >
           <!-- Image -->
           <img src="../../assets/dispencer.png" alt="" />
-
           <!-- Content -->
           <div class="p-6 flex flex-col">
             <h3 class="text-xl font-semibold text-gray-800 mb-3">
-              Home Water Solutions
+              Office Water Solutions
             </h3>
-
             <p class="text-gray-600 mb-6 flex-1">
-              Convenient and affordable water solutions designed for everyday
-              household use.
+              Tailored water supply solutions for corporate offices and institutions.
             </p>
           </div>
         </div>
       </div>
     </div>
-
     <div class="flex items-center justify-center mb-4">
       <router-link
         to="/contact"
@@ -148,7 +118,6 @@
         <button>Order Now</button>
       </router-link>
     </div>
-
     <!-- CTA -->
     <div class="bg-gray-100 py-16">
       <div class="container mx-auto px-6 text-center font-body">
@@ -169,5 +138,4 @@
     </div>
   </section>
 </template>
-
 <script setup></script>
