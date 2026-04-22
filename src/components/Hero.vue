@@ -1,5 +1,5 @@
 <template>
-  <section class="relative md:min-h-[85vh] flex items-center overflow-hidden py-8">
+  <section class="relative flex items-center overflow-hidden">
     <!-- Background Image -->
     <div
       class="absolute inset-0 bg-cover bg-center scale-110 transition-opacity duration-1000"
@@ -12,11 +12,11 @@
 
     <!-- Content Wrapper -->
     <div
-      class="relative z-10 max-w-6xl mx-auto px-6 text-cyan-50 grid grid-cols-1 md:grid-cols-2 gap-12 items-center"
+      class="relative z-10 max-w-6xl mx-auto px-6 text-cyan-50 grid grid-cols-1 md:grid-cols-2 gap-16 items-center"
     >
       <!-- LEFT: Text Content -->
       <div
-        class="text-center md:text-left transition-all duration-1000"
+        class="text-center lg:-mt-20 md:text-left transition-all duration-1000"
         :class="loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'"
       >
         <h1
@@ -50,7 +50,7 @@
 
       <!-- RIGHT: Image -->
       <div
-        class="flex justify-center items-center transition-all duration-1000 delay-300"
+        class="flex justify-center lg:-mt-28 items-center transition-all duration-1000 delay-300"
         :class="loaded ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'"
       >
         <img
@@ -67,7 +67,7 @@
 <script setup>
 import { ref, onMounted } from "vue";
 import bg from "../assets/productsHero.webp";
-import aqualina from "../assets/aqualina-bottle1.png";
+import aqualina from "../assets/aqualina-hero.webp";
 
 const loaded = ref(false);
 const bgLoaded = ref(false);
@@ -76,7 +76,7 @@ onMounted(() => {
   // trigger content animation
   setTimeout(() => {
     loaded.value = true;
-  }, 200);
+  }, 400);
 
   // preload background image
   const img = new Image();

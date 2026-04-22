@@ -1,6 +1,5 @@
 <template>
   <section class="w-full">
-
     <!-- HERO SECTION -->
     <div class="relative w-full h-[50vh] md:h-[60vh] overflow-hidden">
       <img
@@ -25,12 +24,8 @@
     </div>
 
     <!-- OUR STORY SECTION -->
-    <div
-      ref="section"
-      class="container mx-auto px-6 py-20 fade-section"
-    >
+    <div ref="section" class="container mx-auto px-6 py-20 fade-section">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-
         <!-- TEXT -->
         <div>
           <h2 class="text-3xl md:text-4xl font-bold text-cyan-900 mb-6 font-heading">
@@ -38,7 +33,40 @@
           </h2>
 
           <p class="text-cyan-800 leading-relaxed mb-4 font-body space-y-4">
-            Our journey began in 1992 when our founder returned to Kenya after completing further studies in the United States. During this time, he noticed a major gap in the local market: access to purified, safe, and portable drinking water was extremely limited. Clean bottled water was widely viewed as a luxury, accessible only to a few, while most households relied on traditional methods such as boiling to make water safe for consumption. Motivated by the need to change this reality, the idea was born to produce, package, distribute, and supply purified drinking water that could be trusted by everyone. The vision was simple yet powerful — to make clean, safe drinking water easily available to homes and businesses, at the press of a tap, whether hot or cold. The company started modestly, with a small purification plant, a compact vehicle, and a dedicated team of just five people. What was once a new and unfamiliar concept involved supplying premium purified water in 18.9-litre containers, paired with hot and cold water dispensers to ensure convenience and comfort for customers.<br> From the very beginning, our focus has always been on the customer. By offering doorstep deliveries, reliable after-sales support, and professional servicing of water dispensers, we created a personalized experience that set us apart in the market.<br> Headquartered in Nairobi's Industrial Area, with additional branches in Mombasa and Kisumu, the company has steadily grown its distribution network across the country. Supported by a dedicated fleet of delivery vehicles, we ensure timely and efficient service nationwide.<br> Over the years, demand for our premium purified drinking water has grown consistently. Along the way, we have expanded our range to include world-class water solutions, all offered under one roof. Today, we are proud to serve thousands of customers from all walks of life across Kenya, and we continue to look ahead with plans to expand beyond our borders in the future.
+            At Aqualina, we are dedicated to providing pure, refreshing, and high-quality
+            bottled water that supports healthier lifestyles and meets the everyday needs
+            of our customers. From the very beginning, our vision has been to become a
+            trusted household and business name by consistently delivering safe drinking
+            water produced to the highest standards of hygiene, quality, and reliability.
+            We understand that water is one of life's most essential resources, and we
+            take great pride in ensuring that every bottle we produce reflects our
+            commitment to excellence, purity, and customer satisfaction. Through modern
+            purification systems, advanced filtration technology, and strict quality
+            assurance procedures, we carefully process our water to maintain freshness,
+            clarity, and great taste in every sip. Our company is built on the values of
+            trust, integrity, consistency, and service. We work hard to create products
+            that individuals, families, offices, hotels, restaurants, schools, and
+            organizations can depend on every day. Each bottle is hygienically packaged
+            and handled with care throughout every stage of production and distribution,
+            ensuring that our customers receive water they can confidently enjoy. <br />
+            We continuously invest in improving our operations, embracing innovation, and
+            maintaining efficient systems that allow us to serve growing communities with
+            speed and dependability. At Aqualina, customer satisfaction remains at the
+            center of everything we do. We believe that excellent service goes hand in
+            hand with excellent products, which is why we focus on building strong
+            relationships with our customers through professionalism, responsiveness, and
+            consistent delivery. Whether supplying homes, workplaces, retail outlets, or
+            large-scale events, we strive to meet every demand with reliability and
+            flexibility. Our team is passionate about maintaining the reputation we have
+            built and exceeding expectations whenever possible. We are also committed to
+            operating responsibly and contributing positively to the environment and the
+            communities we serve. Through sustainable practices, efficient resource
+            management, and a focus on continuous improvement, we aim to reduce our
+            environmental impact while creating long-term value for society. <br />
+            As we continue to grow, our mission remains clear: to deliver clean, safe, and
+            refreshing water while setting the standard for quality, trust, and innovation
+            in the bottled water industry. At Aqualina, every bottle represents our
+            promise of purity, care, and excellence.
           </p>
 
           <!-- Optional: split text for readability -->
@@ -49,21 +77,19 @@
           <img
             :src="storyImg"
             alt="Our Story"
-            class="rounded-2xl shadow-xl w-full max-w-md object-cover transition-all duration-1000 opacity-0 translate-x-10"
+            class="rounded-2xl shadow-xl w-full max-w-md object-cover transition-all duration-1000 opacity-0 lg:translate-x-10"
             :class="show ? 'opacity-100 translate-x-0' : ''"
           />
         </div>
-
       </div>
     </div>
-
   </section>
 </template>
 
 <script setup>
 import { ref, onMounted } from "vue";
 import aboutHero from "/src/assets/AboutHero2.webp";
-import storyImg from "/src/assets/aqualina-product.jpeg";
+import storyImg from "/src/assets/aqualina-product.webp";
 
 const loaded = ref(false);
 const show = ref(false);

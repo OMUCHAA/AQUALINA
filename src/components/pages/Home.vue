@@ -8,13 +8,12 @@
       <!-- LEFT IMAGE -->
       <div class="flex justify-center">
         <img
-          src="/src/assets/image.png"
+          src="/src/assets/image.webp"
           alt="Our Story"
           class="rounded-xl shadow-lg w-full max-w-md transition-opacity duration-1000 opacity-0"
           @load="$event.target.classList.remove('opacity-0')"
         />
       </div>
-
       <!-- RIGHT CONTENT -->
       <div>
         <h2
@@ -22,7 +21,6 @@
         >
           Our Story
         </h2>
-
         <div class="w-20 h-1 bg-sky-600 mb-6"></div>
 
         <p class="text-cyan-900 leading-relaxed mb-4 font-body">
@@ -48,7 +46,10 @@
   </section>
 
   <!-- Why Choose Us -->
-  <section ref="sections" class="fade-section bg-gray-50 py-20">
+  <section
+    ref="sections"
+    class="fade-section relative overflow-hidden py-20 bg-gradient-to-br from-cyan-200/45 via-white/25 to-cyan-100/10 backdrop-blur-3xl border-y border-white/40 shadow-xl"
+  >
     <div class="max-w-6xl mx-auto px-6">
       <!-- SECTION HEADER -->
       <div class="text-center mb-14">
@@ -141,7 +142,7 @@
           class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col"
         >
           <img
-            src="../../assets/dispencer.png"
+            src="../../assets/dispencer.webp"
             class="transition-opacity duration-1000 opacity-0"
             @load="$event.target.classList.remove('opacity-0')"
             alt=""
@@ -151,12 +152,13 @@
             <p class="text-gray-600 mb-4 flex-1">
               High performance cooler suitable for any outdoor activity.
             </p>
-            <router-link
-              to="/contact"
+            <a
+              href="https://wa.me/254780818238"
+              target="_blank"
               class="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition mt-auto w-2/5 text-center"
             >
               <button>Order Now</button>
-            </router-link>
+            </a>
           </div>
         </div>
 
@@ -167,19 +169,20 @@
             src="../../assets/dispencer2.jpg"
             class="transition-opacity duration-1000 opacity-0"
             @load="$event.target.classList.remove('opacity-0')"
-            alt=""
+            alt="Dispencer"
           />
           <div class="p-6 flex flex-col flex-1">
             <h3 class="text-xl font-semibold mb-2 text-gray-800">Servicing</h3>
             <p class="text-gray-600 mb-4 flex-1">
               High performance cooler suitable for any outdoor activity.
             </p>
-            <router-link
-              to="/contact"
+            <a
+              href="https://wa.me/254780818238"
+              target="_blank"
               class="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition mt-auto w-2/5 text-center"
             >
               <button>Order Now</button>
-            </router-link>
+            </a>
           </div>
         </div>
 
@@ -187,22 +190,23 @@
           class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col"
         >
           <img
-            src="/src/assets/disposable.jpg"
+            src="/src/assets/disposable.webp"
             class="transition-opacity duration-1000 opacity-0"
             @load="$event.target.classList.remove('opacity-0')"
-            alt=""
+            alt="Disposable Cups"
           />
           <div class="p-6 flex flex-col flex-1">
             <h3 class="text-xl font-semibold mb-2 text-gray-800">Disposable Glasses</h3>
             <p class="text-gray-600 mb-4 flex-1">
               High performance cooler suitable for any outdoor activity.
             </p>
-            <router-link
-              to="/contact"
+            <a
+              href="https://wa.me/254780818238"
+              target="_blank"
               class="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition mt-auto w-2/5 text-center"
             >
               <button>Order Now</button>
-            </router-link>
+            </a>
           </div>
         </div>
       </div>
