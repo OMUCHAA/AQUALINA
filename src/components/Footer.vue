@@ -9,8 +9,8 @@
       <div>
         <h2 class="text-2xl font-bold text-white mb-4">AQUALINA</h2>
         <p class="text-sm leading-relaxed text-cyan-400">
-          Delivering clean, safe, and reliable water solutions for homes,
-          offices, and businesses.
+          Delivering clean, safe, and reliable water solutions for homes, offices, and
+          businesses.
         </p>
       </div>
 
@@ -22,24 +22,16 @@
             <router-link to="/" class="hover:text-cyan-400">Home</router-link>
           </li>
           <li>
-            <router-link to="/faqs" class="hover:text-cyan-400"
-              >Faqs</router-link
-            >
+            <router-link to="/faqs" class="hover:text-cyan-400">Faqs</router-link>
           </li>
           <li>
-            <router-link to="/contact" class="hover:text-cyan-400"
-              >Contact</router-link
-            >
+            <router-link to="/contact" class="hover:text-cyan-400">Contact</router-link>
           </li>
           <li>
-            <router-link to="/products" class="hover:text-cyan-400"
-              >Products</router-link
-            >
+            <router-link to="/products" class="hover:text-cyan-400">Products</router-link>
           </li>
           <li>
-            <router-link to="/about" class="hover:text-cyan-400"
-              >Our Story</router-link
-            >
+            <router-link to="/about" class="hover:text-cyan-400">Our Story</router-link>
           </li>
         </ul>
       </div>
@@ -65,10 +57,7 @@
             </a>
           </li>
           <li>
-            <a
-              href="mailto:info@aqualina.co.ke"
-              class="-mr-4"
-            >
+            <a href="mailto:info@aqualina.co.ke" class="-mr-4">
               <i class="fa-solid fa-envelope"></i> info@aqualina.co.ke
             </a>
           </li>

@@ -84,6 +84,89 @@
       </div>
     </div>
   </section>
+
+  <!-- Why Choose Us -->
+  <section
+    ref="sections"
+    class="fade-section relative overflow-hidden py-20 bg-gradient-to-br from-cyan-200/45 via-white/25 to-cyan-100/10 backdrop-blur-3xl border-y border-white/40 shadow-xl"
+  >
+    <div class="max-w-6xl mx-auto px-6">
+      <!-- SECTION HEADER -->
+      <div class="text-center mb-14">
+        <h2 class="text-3xl md:text-4xl font-bold text-cyan-900 mb-4 font-heading">
+          Why Choose Us?
+        </h2>
+        <div class="w-20 h-1 bg-sky-600 mx-auto mb-6"></div>
+        <p class="text-cyan-900 max-w-2xl mx-auto font-body">
+          We go the extra mile to ensure you receive clean, safe and reliable drinking
+          water every time.
+        </p>
+      </div>
+
+      <!-- FEATURES GRID -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 font-body">
+        <!-- CARD 1 -->
+        <div
+          class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 cursor-pointer"
+        >
+          <div
+            class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-sky-100"
+          >
+            <img src="/src/assets/quality.svg" class="w-8" alt="Quality" />
+          </div>
+          <h3 class="font-semibold text-lg text-cyan-900 mb-2">Premium Quality</h3>
+          <p class="text-cyan-900 text-sm">
+            Purified using modern filtration technology for superior taste and safety.
+          </p>
+        </div>
+
+        <!-- CARD 2 -->
+        <div
+          class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 cursor-pointer"
+        >
+          <div
+            class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-sky-100"
+          >
+            <img src="/src/assets/delivery.svg" class="w-8" alt="Delivery" />
+          </div>
+          <h3 class="font-semibold text-lg mb-2 text-cyan-900">Fast Delivery</h3>
+          <p class="text-cyan-900 text-sm">
+            Reliable and timely deliveries to homes, offices and businesses.
+          </p>
+        </div>
+
+        <!-- CARD 3 -->
+        <div
+          class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 cursor-pointer"
+        >
+          <div
+            class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-sky-100"
+          >
+            <img src="/src/assets/thumbsup.svg" class="w-8" alt="Support" />
+          </div>
+          <h3 class="font-semibold text-lg mb-2 text-cyan-900">Excellent Support</h3>
+          <p class="text-cyan-900 text-sm">
+            Friendly customer service always ready to assist you.
+          </p>
+        </div>
+
+        <!-- CARD 4 -->
+        <div
+          class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 cursor-pointer"
+        >
+          <div
+            class="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-sky-100"
+          >
+            <img src="/src/assets/pricing.svg" class="w-8" alt="Affordable" />
+          </div>
+          <h3 class="font-semibold text-lg mb-2 text-cyan-900">Affordable Pricing</h3>
+          <p class="text-cyan-900 text-sm">
+            High quality water at competitive and fair prices.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script setup>
@@ -115,6 +198,26 @@ onMounted(() => {
 
   const section = document.querySelector(".fade-section");
   if (section) observer.observe(section);
+});
+
+const sections = ref([]);
+
+onMounted(() => {
+  // SELECT ALL SECTIONS manually
+  sections.value = document.querySelectorAll(".fade-section");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        }
+      });
+    },
+    { threshold: 0.2 }
+  );
+
+  sections.value.forEach((el) => observer.observe(el));
 });
 </script>
 
