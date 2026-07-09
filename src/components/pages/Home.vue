@@ -132,8 +132,8 @@
   <section ref="sections" class="fade-section py-16 bg-gray-50">
     <div class="container mx-auto px-6">
       <!-- Section Title -->
-      <h2 class="text-4xl font-bold text-center mb-12 text-cyan-900 font-heading">
-        Our Products
+      <h2 class="text-4xl font-bold text-center mb-12 text-cyan-600 font-heading">
+        Our Products and Services
       </h2>
 
       <!-- Products Grid -->
@@ -142,7 +142,7 @@
           class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col"
         >
           <img
-            src="../../assets/dispencer.webp"
+            src="../../assets/premium.png"
             class="transition-opacity duration-1000 opacity-0"
             @load="$event.target.classList.remove('opacity-0')"
             alt=""
@@ -169,7 +169,7 @@
           class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col"
         >
           <img
-            src="../../assets/dispencer2.jpg"
+            src="../../assets/Refills.png"
             class="transition-opacity duration-1000 opacity-0"
             @load="$event.target.classList.remove('opacity-0')"
             alt="Dispencer"
@@ -190,12 +190,39 @@
             </a>
           </div>
         </div>
+
+        <!-- Empty Bottles -->
+        <div
+          class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col"
+        >
+          <img
+            src="/src/assets/empty.png"
+            class="transition-opacity duration-1000 opacity-0"
+            @load="$event.target.classList.remove('opacity-0')"
+            alt="Disposable Cups"
+          />
+          <div class="p-6 flex flex-col flex-1">
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">Empty Water Bottles</h3>
+            <p class="text-gray-600 mb-4 flex-1">
+              Single-Use Small Scale PET Bottles: These range from small 300ml, 500ml, and
+              1.5-litre sizes up to larger 5-litre and 10-litre kitchen dispenser jars.
+              These are generally sold in huge bulk quantities to packaging lines.
+            </p>
+            <a
+              href="https://wa.me/254780818238"
+              target="_blank"
+              class="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition mt-auto w-2/5 text-center"
+            >
+              <button>Order Now</button>
+            </a>
+          </div>
+        </div>
         <!-- plain bottled water -->
         <div
           class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col"
         >
           <img
-            src="/src/assets/disposable.webp"
+            src="/src/assets/plains.png"
             class="transition-opacity duration-1000 opacity-0"
             @load="$event.target.classList.remove('opacity-0')"
             alt="Disposable Cups"
@@ -207,32 +234,6 @@
             <p class="text-gray-600 mb-4 flex-1">
               A plain bottled fresh water service bridges the gap between affordable local
               refill stations and high-end luxury waters
-            </p>
-            <a
-              href="https://wa.me/254780818238"
-              target="_blank"
-              class="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition mt-auto w-2/5 text-center"
-            >
-              <button>Order Now</button>
-            </a>
-          </div>
-        </div>
-        <!-- Empty Bottles -->
-        <div
-          class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col"
-        >
-          <img
-            src="/src/assets/disposable.webp"
-            class="transition-opacity duration-1000 opacity-0"
-            @load="$event.target.classList.remove('opacity-0')"
-            alt="Disposable Cups"
-          />
-          <div class="p-6 flex flex-col flex-1">
-            <h3 class="text-xl font-semibold mb-2 text-gray-800">Empty Water Bottles</h3>
-            <p class="text-gray-600 mb-4 flex-1">
-              Single-Use Small Scale PET Bottles: These range from small 300ml, 500ml, and
-              1.5-litre sizes up to larger 5-litre and 10-litre kitchen dispenser jars.
-              These are generally sold in huge bulk quantities to packaging lines.
             </p>
             <a
               href="https://wa.me/254780818238"
