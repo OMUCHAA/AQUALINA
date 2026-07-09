@@ -16,40 +16,129 @@
           class="text-cyan-100 text-5xl md:text-7xl font-bold font-heading transition-all duration-1000"
           :class="loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'"
         >
-          Our Products
+          Services
         </h1>
       </div>
     </div>
 
-    <!-- PRODUCTS GRID -->
-    <div ref="section" class="container mx-auto px-6 py-20 font-body fade-section">
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-        <!-- CARD -->
-        <div v-for="(item, index) in products" :key="index" class="card">
-          <img
-            :src="item.image"
-            class="img opacity-0"
-            @load="$event.target.classList.remove('opacity-0')"
-          />
+    <!--Our Products Section -->
+    <section ref="sections" class="fade-section py-16 bg-gray-50">
+      <div class="container mx-auto px-6">
+        <!-- Products Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 font-body">
+          <div
+            class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col"
+          >
+            <img
+              src="../../assets/premium.png"
+              class="transition-opacity duration-1000 opacity-0"
+              @load="$event.target.classList.remove('opacity-0')"
+              alt=""
+            />
+            <div class="p-6 flex flex-col flex-1">
+              <h3 class="text-xl font-semibold mb-2 text-gray-800">
+                Premium Fresh water Supply
+              </h3>
+              <p class="text-gray-600 mb-4 flex-1">
+                Classic water aqualina branded bottled water supply. We package and sell
+                high-end water as a lifestyle and consumer product.
+              </p>
+              <a
+                href="https://wa.me/254780818238"
+                target="_blank"
+                class="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition mt-auto w-2/5 text-center"
+              >
+                <button>Order Now</button>
+              </a>
+            </div>
+          </div>
+          <!-- Refills -->
+          <div
+            class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col"
+          >
+            <img
+              src="../../assets/Refills.png"
+              class="transition-opacity duration-1000 opacity-0"
+              @load="$event.target.classList.remove('opacity-0')"
+              alt="Dispencer"
+            />
+            <div class="p-6 flex flex-col flex-1">
+              <h3 class="text-xl font-semibold mb-2 text-gray-800">
+                Fresh Water Refills
+              </h3>
+              <p class="text-gray-600 mb-4 flex-1">
+                We sell this clean drinking water to customers and local businesses who
+                bring their own reusable containers, like 20-liter jerrycans or 10-liter
+                bottles, often using automated dispensers
+              </p>
+              <a
+                href="https://wa.me/254780818238"
+                target="_blank"
+                class="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition mt-auto w-2/5 text-center"
+              >
+                <button>Order Now</button>
+              </a>
+            </div>
+          </div>
 
-          <div class="content">
-            <h3 class="title">{{ item.title }}</h3>
-            <p class="desc">{{ item.desc }}</p>
+          <!-- Empty Bottles -->
+          <div
+            class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col"
+          >
+            <img
+              src="/src/assets/empty.png"
+              class="transition-opacity duration-1000 opacity-0"
+              @load="$event.target.classList.remove('opacity-0')"
+              alt="Disposable Cups"
+            />
+            <div class="p-6 flex flex-col flex-1">
+              <h3 class="text-xl font-semibold mb-2 text-gray-800">
+                Empty Water Bottles
+              </h3>
+              <p class="text-gray-600 mb-4 flex-1">
+                Single-Use Small Scale PET Bottles: These range from small 300ml, 500ml,
+                and 1.5-litre sizes up to larger 5-litre and 10-litre kitchen dispenser
+                jars. These are generally sold in huge bulk quantities to packaging lines.
+              </p>
+              <a
+                href="https://wa.me/254780818238"
+                target="_blank"
+                class="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition mt-auto w-2/5 text-center"
+              >
+                <button>Order Now</button>
+              </a>
+            </div>
+          </div>
+          <!-- plain bottled water -->
+          <div
+            class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col"
+          >
+            <img
+              src="/src/assets/plains.png"
+              class="transition-opacity duration-1000 opacity-0"
+              @load="$event.target.classList.remove('opacity-0')"
+              alt="Disposable Cups"
+            />
+            <div class="p-6 flex flex-col flex-1">
+              <h3 class="text-xl font-semibold mb-2 text-gray-800">
+                Plain bottled Fresh water
+              </h3>
+              <p class="text-gray-600 mb-4 flex-1">
+                A plain bottled fresh water service bridges the gap between affordable
+                local refill stations and high-end luxury waters
+              </p>
+              <a
+                href="https://wa.me/254780818238"
+                target="_blank"
+                class="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition mt-auto w-2/5 text-center"
+              >
+                <button>Order Now</button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- ORDER BUTTON -->
-    <div class="flex justify-center mb-6">
-      <a
-        href="https://wa.me/254780818238"
-        target="_blank"
-        class="bg-cyan-500 text-white py-3 px-6 rounded-lg hover:bg-cyan-600 transition transform hover:scale-105 font-body"
-      >
-        Order Now
-      </a>
-    </div>
+    </section>
 
     <!-- CTA -->
     <div class="bg-gray-100 py-16 fade-section" ref="cta">
