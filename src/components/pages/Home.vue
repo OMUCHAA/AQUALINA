@@ -8,7 +8,7 @@
       <!-- LEFT IMAGE -->
       <div class="flex justify-center">
         <img
-          src="/src/assets/image.webp"
+          src="/src/assets/500ml.png"
           alt="Our Story"
           class="rounded-xl shadow-lg w-full max-w-md transition-opacity duration-1000 opacity-0"
           @load="$event.target.classList.remove('opacity-0')"
