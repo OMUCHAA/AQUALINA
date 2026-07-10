@@ -166,49 +166,11 @@ import { ref, onMounted } from "vue";
 // IMAGES
 import bg from "/src/assets/bg.webp";
 import bottle from "/src/assets/aqualina-bottle1.webp";
-import bulk from "/src/assets/image.webp";
-import disposable from "/src/assets/disposable.webp";
 import dispenser2 from "/src/assets/dispencer2.jpg";
 import servicing from "/src/assets/servicing.png";
-import dispenser from "/src/assets/dispencer.webp";
 
 // STATE
 const loaded = ref(false);
-
-// PRODUCTS DATA (cleaner than repeating HTML)
-const products = [
-  {
-    image: bottle,
-    title: "Home Water Solutions",
-    desc:
-      "Convenient and affordable water solutions designed for everyday household use.",
-  },
-  {
-    image: bulk,
-    title: "Bulk Purified Water",
-    desc: "Premium purified drinking water supplied in 18.9-litre bottles.",
-  },
-  {
-    image: disposable,
-    title: "Disposable Cups",
-    desc: "Safe and hygienic disposable cups for offices and events.",
-  },
-  {
-    image: dispenser2,
-    title: "Water Dispensers",
-    desc: "High-quality hot and cold dispensers for homes and offices.",
-  },
-  {
-    image: servicing,
-    title: "Cooler Servicing",
-    desc: "Professional maintenance for hygienic and efficient dispensers.",
-  },
-  {
-    image: dispenser,
-    title: "Office Water Solutions",
-    desc: "Reliable water supply solutions for corporate environments.",
-  },
-];
 
 onMounted(() => {
   // HERO ANIMATION
