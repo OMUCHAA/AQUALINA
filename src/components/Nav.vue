@@ -9,7 +9,7 @@
           ><!-- <img src="/logo.png" alt="Logo" class="h-10 w-auto" /> -->
           <span class="lg:text-4xl text-2xl">
             <img
-              src="/src/assets/aqualina.webp"
+              src="/src/assets/aqualina-squoosh.webp"
               alt=""
               class="lg:h-28 md:h-20 h-16"
             /> </span
