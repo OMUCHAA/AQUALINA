@@ -74,7 +74,7 @@
 import { ref, onMounted } from "vue";
 
 import bg from "../assets/productsHero.webp";
-import aqualina from "../assets/hero-bottle.webp";
+import aqualina from "../assets/hero-bottle-squoosh.webp";
 
 const loaded = ref(false);
 const bgLoaded = ref(false);
