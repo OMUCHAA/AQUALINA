@@ -30,7 +30,7 @@
             class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col"
           >
             <img
-              src="../../assets/premium.png"
+              src="../../assets/premium-squoosh.webp"
               class="transition-opacity duration-1000 opacity-0"
               @load="$event.target.classList.remove('opacity-0')"
               alt=""
@@ -57,7 +57,7 @@
             class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col"
           >
             <img
-              src="../../assets/Refills.png"
+              src="../../assets/Refills-squoosh.webp"
               class="transition-opacity duration-1000 opacity-0"
               @load="$event.target.classList.remove('opacity-0')"
               alt="Dispencer"
@@ -86,7 +86,7 @@
             class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col"
           >
             <img
-              src="/src/assets/empty.png"
+              src="/src/assets/empty-squoosh.webp"
               class="transition-opacity duration-1000 opacity-0"
               @load="$event.target.classList.remove('opacity-0')"
               alt="Disposable Cups"
@@ -114,7 +114,7 @@
             class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col"
           >
             <img
-              src="/src/assets/plains.png"
+              src="/src/assets/plains-squoosh.webp"
               class="transition-opacity duration-1000 opacity-0"
               @load="$event.target.classList.remove('opacity-0')"
               alt="Disposable Cups"
